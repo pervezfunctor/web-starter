@@ -1,0 +1,50 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint-config-prettier"],
+  "rules": {
+    "adjacent-overload-signatures": true,
+    "arrow-return-shorthand": true,
+    "callable-types": true,
+    "class-name": true,
+    "cyclomatic-complexity": false,
+    "eofline": true,
+    "forin": true,
+    "interface-name": { "options": ["never-prefix"] },
+    "new-parens": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-any": false,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-console": false,
+    "no-duplicate-super": true,
+    "no-empty-interface": false,
+    "no-empty": false,
+    "no-eval": true,
+    "no-internal-module": true,
+    "no-invalid-this": false,
+    "no-misused-new": true,
+    "no-namespace": true,
+    "no-parameter-properties": true,
+    "no-reference-import": true,
+    "no-reference": true,
+    "no-string-literal": true,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": false,
+    "no-unnecessary-initializer": true,
+    "no-unsafe-finally": true,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "prefer-const": true,
+    "prefer-for-of": true,
+    "radix": true,
+    "triple-equals": { "options": ["allow-null-check"] },
+    "unified-signatures": true,
+
+    // disable this rule as it is very heavy performance-wise and not that useful
+    "no-use-before-declare": false,
+    "variable-name": {
+      "options": ["ban-keywords", "check-format", "allow-pascal-case"]
+    }
+  }
+}
