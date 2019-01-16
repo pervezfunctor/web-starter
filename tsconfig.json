@@ -5,6 +5,7 @@
     "checkJs": false,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "preserve",
