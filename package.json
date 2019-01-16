@@ -27,8 +27,13 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@fortawesome/fontawesome-free": "^5.6.3",
     "@types/chance": "^1.0.1",
     "@types/jest": "^23.3.12",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-router": "^4.4.3",
+    "@types/react-router-dom": "^4.3.1",
     "@types/yup": "^0.26.4",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
@@ -48,6 +53,7 @@
     "parcel-bundler": "^1.11.0",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "prettier": "^1.15.3",
+    "react-testing-library": "^5.4.4",
     "rimraf": "^2.6.3",
     "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
@@ -56,15 +62,20 @@
     "typescript": "^3.2.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.6.3",
     "axios": "^0.18.0",
     "bulma": "^0.7.2",
     "bulma-extensions": "^4.0.1",
     "date-fns": "^1.30.1",
+    "formik": "^1.4.2",
     "immer": "^1.10.5",
+    "react": "^16.8.0-alpha.1",
+    "react-dom": "^16.8.0-alpha.1",
+    "react-router-dom": "^4.3.1",
     "rxjs": "^6.3.3",
     "tcomb": "^3.2.29",
-    "ulid": "^2.3.0"
+    "ulid": "^2.3.0",
+    "use-immer": "^0.1.0",
+    "yup": "^0.26.7"
   },
   "husky": {
     "hooks": {
