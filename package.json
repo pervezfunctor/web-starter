@@ -17,7 +17,7 @@
     "lint": "yarn lint:js && yarn lint:ts",
     "validate:types": "tsc --noEmit -p .",
     "fix": "yarn lint:js --fix && yarn lint:ts --fix",
-    "validate": "yarn verify:types && yarn fix"
+    "validate": "yarn validate:types && yarn fix"
   },
   "keywords": [
     "starter"
