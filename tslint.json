@@ -60,7 +60,6 @@
     "radix": true,
     "restrict-plus-operands": true,
     "return-undefined": true,
-    "strict-boolean-expressions": true,
     "strict-type-predicates": true,
     "trailing-comma": true,
     "triple-equals": { "options": ["allow-null-check"] },
